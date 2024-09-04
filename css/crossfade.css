@@ -58,7 +58,25 @@ This 450/1280 = 35.15625%
     -ms-animation-delay: 30s;
     animation-delay: 30s;
 }
-@-webkit-keyframes imageAnimation {
+#crossfade>img:nth-child(7) {
+    -webkit-animation-delay: 36s;
+    -moz-animation-delay: 36s;
+    -o-animation-delay: 36s;
+    -ms-animation-delay: 36s;
+    animation-delay: 36s;
+}#crossfade>img:nth-child(8) {
+    -webkit-animation-delay: 42s;
+    -moz-animation-delay: 42s;
+    -o-animation-delay: 42s;
+    -ms-animation-delay: 42s;
+    animation-delay: 42s;
+}#crossfade>img:nth-child(9) {
+    -webkit-animation-delay: 48s;
+    -moz-animation-delay: 48s;
+    -o-animation-delay: 48s;
+    -ms-animation-delay: 48s;
+    animation-delay: 48s;
+}@-webkit-keyframes imageAnimation {
     0% { opacity: 0;
     -webkit-animation-timing-function: ease-in; }
     8% { opacity: 1;
