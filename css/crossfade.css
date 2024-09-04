@@ -16,11 +16,11 @@ This 450/1280 = 35.15625%
     z-index: 0;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 30s linear infinite 0s;
-    -moz-animation: imageAnimation 30s linear infinite 0s;
-    -o-animation: imageAnimation 30s linear infinite 0s;
-    -ms-animation: imageAnimation 30s linear infinite 0s;
-    animation: imageAnimation 30s linear infinite 0s;
+    -webkit-animation: imageAnimation 60s linear infinite 0s;
+    -moz-animation: imageAnimation 60s linear infinite 0s;
+    -o-animation: imageAnimation 60s linear infinite 0s;
+    -ms-animation: imageAnimation 60s linear infinite 0s;
+    animation: imageAnimation 60s linear infinite 0s;
 }
 
 #crossfade > img:nth-child(2)  {
@@ -64,19 +64,29 @@ This 450/1280 = 35.15625%
     -o-animation-delay: 36s;
     -ms-animation-delay: 36s;
     animation-delay: 36s;
-}#crossfade>img:nth-child(8) {
+}
+#crossfade>img:nth-child(8) {
     -webkit-animation-delay: 42s;
     -moz-animation-delay: 42s;
     -o-animation-delay: 42s;
     -ms-animation-delay: 42s;
     animation-delay: 42s;
-}#crossfade>img:nth-child(9) {
+}
+#crossfade>img:nth-child(9) {
     -webkit-animation-delay: 48s;
     -moz-animation-delay: 48s;
     -o-animation-delay: 48s;
     -ms-animation-delay: 48s;
     animation-delay: 48s;
-}@-webkit-keyframes imageAnimation {
+}
+#crossfade>img:nth-child(10) {
+    -webkit-animation-delay: 54s;
+    -moz-animation-delay: 54s;
+    -o-animation-delay: 54s;
+    -ms-animation-delay: 54s;
+    animation-delay: 54s;
+}
+@-webkit-keyframes imageAnimation {
     0% { opacity: 0;
     -webkit-animation-timing-function: ease-in; }
     8% { opacity: 1;
