@@ -1,5 +1,4 @@
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,7 +6,8 @@
 <meta name="publisher" content="{{site.publisher}}">
 <meta name="keywords" content="{{site.keywords}}">
 <link rel="icon" href="data:,">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/flatly/bootstrap.min.css" integrity="sha256-3qv4tNI3biEPsgn+MRc82+NxCwwmtilEJt00BUvbVWY=" crossorigin="anonymous">
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <script src="/js/color-modes.js"></script>
 <title>
 	{{site.title}}
@@ -24,6 +24,8 @@
 
 {% include navbar.html %}
 
+{% include banner.html %}
+
 {% include header.html %}
 
 <div id="content" class="container">
@@ -31,8 +33,6 @@
 {{ content }}
 
 </div> <!-- End of content -->
-
-{% include quotes.html %}
 
 {% include footer.html %}
 
