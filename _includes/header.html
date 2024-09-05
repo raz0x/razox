@@ -1,6 +1,5 @@
 <header class="container-fluid bg-light-subtle mb-3 py-3">
-    <div class="container">
-        {% if page.title %}<h1>{{page.title}}{% if page.subtitle %} <span class="text-muted">{{page.subtitle}}</span>{% endif %}</h1>{% endif %}
-        {% if page.lead %}<p class="lead">{{page.lead}}</p>{% endif %}
-    </div>
+    {% if page.title %}<h1>{{page.title}}</h1>{% endif %}
+    {% if page.subtitle %} <h2 class="text-muted">{{page.subtitle}}</h2>{% endif %}
+    {% if page.lead %}<p class="lead">{{page.lead}}</p>{% endif %}
 </header>
