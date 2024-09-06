@@ -4,11 +4,12 @@
       <div id="quote" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           {% for q in site.data.quotes %}
-          <div class="carousel-item{% if forloop.first == true %} active{% endif %}">
-            <blockquote>{{q.quote}}<br>
-              <span class="small">{{q.author}}</span>
+          <figure class="carousel-item{% if forloop.first == true %} active{% endif %}">
+            <blockquote class="blockquote text-center">
+              <p>{{q.quote}}</p>
             </blockquote>
-          </div>
+            <figcaption class="blockquote-footer text-end">{{q.author}}</figcaption>
+          </figure>
           {% endfor %}
         </div>
       </div>
