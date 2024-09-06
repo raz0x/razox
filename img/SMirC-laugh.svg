@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.0">
+  <defs>
+    <path id="m" d="M72.890587 113.43859c6.123837 3.80341 11.481621 8.7005 17.280559 12.97423 4.850221 3.64428 9.705481 7.29331 14.807874 10.55956 1.55902 1.37044 4.58225 2.09227 5.83313 2.63183-2.68095 1.93404-5.36189 3.86807-8.04284 5.8021-3.931643-.92963-7.031023-3.74463-10.330459-5.95644-7.407607-5.35559-14.599443-11.01712-21.924367-16.48763-1.942954-1.39657-3.922688-2.75687-6.052774-3.83888 2.809626-1.89492 5.619252-3.78984 8.428877-5.68477z"/>
+    <path id="n" d="M99.155807 168.94106c-4.89391-.35208-9.789823-.28886-14.684708-.30109-5.794251-.0967-11.588213-.0648-17.382348.0606-4.50132-.30418-8.983187 1.15724-13.469089 2.13976-2.80778.57585-5.619731.82859-8.431377 1.10917l12.328027-28.59262c2.775194-.26764 5.551813-.46716 8.322246-1.09426 4.498666-1.02838 8.997226-2.39373 13.513374-1.84648 5.776603.12739 11.553033.15579 17.329755.0607 4.981943-.0125 9.964813.0447 14.945823-.30112l-12.471703 28.76537z"/>
+  </defs>
+  <defs>
+    <pattern xlink:href="#a" id="o" patternTransform="matrix(.93538362 0 0 .97855266 59.966438 181.30873)"/>
+    <pattern xlink:href="#b" id="j" patternTransform="matrix(1.1909599 0 0 1 -.0000013 .00000892)"/>
+    <pattern xlink:href="#c" id="b" patternTransform="matrix(1.1909599 0 0 1 59.966437 181.30874)"/>
+    <pattern xlink:href="#d" id="i" patternTransform="translate(.00000721 -.00001805)"/>
+    <pattern xlink:href="#e" id="d" patternTransform="translate(-140.30201 179.69798)"/>
+    <pattern xlink:href="#f" id="h" patternTransform="matrix(1.0981595 0 0 1.440367 -7.7e-7 -.00000352)"/>
+    <pattern xlink:href="#g" id="f" patternTransform="matrix(1.0981595 0 0 1.440367 -141.37584 127.08054)"/>
+    <pattern id="g" width="120.33557" height="65.83892" patternTransform="translate(-141.37584 127.08054)" patternUnits="userSpaceOnUse">
+      <path fill="#fff" stroke="#5f2700" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" d="M5 5h27.38255v55.83892H5V5zm27.65101 0h27.382551v55.83892H32.65101V5zm27.919456 0h27.382551v55.83892H60.570466V5zm27.382553 0h27.382551v55.83892H87.953019V5z"/>
+    </pattern>
+    <pattern id="e" width="132.14766" height="94.832207" patternTransform="translate(-141.37584 127.08054)" patternUnits="userSpaceOnUse">
+      <path fill="url(#h)" d="M0 0h132.14766v94.832207H0z"/>
+    </pattern>
+    <pattern id="c" width="132.14766" height="94.832207" patternTransform="translate(-140.30202 179.698)" patternUnits="userSpaceOnUse">
+      <path fill="url(#i)" d="M0 0h132.14766v94.832207H0z"/>
+    </pattern>
+    <pattern id="a" width="157.38255" height="94.832207" patternTransform="translate(59.966438 181.30873)" patternUnits="userSpaceOnUse">
+      <path fill="url(#j)" d="M0 0h157.38255v94.832207H0z"/>
+    </pattern>
+    <radialGradient xlink:href="#k" id="l" cx="126.73664" cy="143.15707" r="144.24496" fx="126.73664" fy="143.15707" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="k">
+      <stop offset="0" stop-color="#ffeb00"/>
+      <stop offset="1" stop-color="#ff8d00"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#l)" stroke="#b26200" stroke-linejoin="round" stroke-width="5" d="M304.96645 157.85236a141.74497 141.74497 0 1 1-283.489933 0 141.74497 141.74497 0 1 1 283.489933 0z" transform="translate(-12.942251 -7.2533635) scale(1.0595557)"/>
+  <g fill="#5f2700" transform="translate(-6.2734494 -25.524189) scale(1.1681926)">
+    <use xlink:href="#m"/>
+    <use xlink:href="#n"/>
+  </g>
+  <g fill="#5f2700" transform="matrix(-1.1681926 0 0 1.1681926 277.89963 -23.642533)">
+    <use xlink:href="#m"/>
+    <use xlink:href="#n"/>
+  </g>
+  <path fill="url(#o)" fill-rule="evenodd" stroke="#5f2700" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" d="M53.322599 188.84347c20.141101 96.4196 129.153331 104.29629 166.127791 13.938l.0731-.0207c-55.40031 4.7825-110.80062 1.33027-166.200931-13.91735z"/>
+</svg>
