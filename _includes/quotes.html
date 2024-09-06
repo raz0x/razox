@@ -1,14 +1,16 @@
-<div class="row">
-  <div class="col-md-8 col-md-offset-2 text-center">
-    <div id="quote" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        {% for q in site.data.quotes %}
-        <div class="carousel-item{% if forloop.first == true %} active{% endif %}">
-          <blockquote>{{q.quote}}<br>
-            <span class="small">{{q.author}}</span>
-          </blockquote>
+<div class="container-fluid bg-light-subtle py-3 px-5 mb-2">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <div id="quote" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          {% for q in site.data.quotes %}
+          <div class="carousel-item{% if forloop.first == true %} active{% endif %}">
+            <blockquote>{{q.quote}}<br>
+              <span class="small">{{q.author}}</span>
+            </blockquote>
+          </div>
+          {% endfor %}
         </div>
-        {% endfor %}
       </div>
     </div>
   </div>
