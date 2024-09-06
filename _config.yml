@@ -10,7 +10,7 @@ email: "email@razox.com"
 permalink: /:categories/:title/
 
 paginate: 3
-paginate_path: "/insights/:num/"
+paginate_path: "/jokes/:num/"
 
 plugins:
   - jekyll-redirect-from
