@@ -1,0 +1,25 @@
+---
+layout: default
+permalink: /quotes/
+
+title: "Quotes"
+subtitle: "from&nbsp;the&nbsp;Vortex"
+lead: "Te audire non possum. Musa sapientum fixa est in aure."
+
+---
+<div class="row">
+  <div class="col-md-8 offset-md-2 text-center">
+    <div id="quote" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        {% for q in site.data.quotes %}
+        <figure class="carousel-item{% if forloop.first == true %} active{% endif %}">
+          <blockquote class="blockquote text-center">
+            <p>{{q.quote}}</p>
+          </blockquote>
+          <figcaption class="blockquote-footer text-end">{{q.author}}</figcaption>
+        </figure>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
