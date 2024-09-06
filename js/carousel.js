@@ -1,4 +1,4 @@
-$('#myCarousel').carousel({
+$('#quotes').carousel({
     interval: 1000
 })
 
