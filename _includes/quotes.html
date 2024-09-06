@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-md-8 col-md-offset-2 text-center">
+    <div id="quote" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        {% for q in site.data.quotes %} <blockquote class="carousel-item{% if site.data.quotes.first %} active{% endif %}">{{q.quote}}<br>
+          <span class="small">{{q.author}}</span></blockquote> {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
