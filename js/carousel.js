@@ -6,7 +6,7 @@ document.querySelectorAll('.carousel-item').forEach(function (item) {
     if (!next) {
         next = parent.querySelector(".carousel-item");
     }
-    let clone = next.querySelector("blockquote").cloneNode(true);
+    let clone = next.querySelector("figure").cloneNode(true);
     item.appendChild(clone)
 
     for (var i = 0; i < minPerSlide; i++) {
@@ -14,7 +14,7 @@ document.querySelectorAll('.carousel-item').forEach(function (item) {
         if (!next) {
             next = parent.querySelector(".carousel-item");
         }
-        clone = next.querySelector("blockquote").cloneNode(true);
+        clone = next.querySelector("figure").cloneNode(true);
         item.appendChild(clone)
     }
 });
