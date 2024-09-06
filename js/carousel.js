@@ -1,17 +1,20 @@
-$('.carousel .carousel-item').each(function() {
-    var minPerSlide = 4;
-    var next = $(this).next();
-    if (!next.length) {
-        next = $(this).siblings(':first');
+const minPerSlide = 4;
+const parent = document.querySelector(".carousel-inner");
+
+document.querySelectorAll('.carousel-item').forEach(function (item) {
+    let next = item.nextElementSibling;
+    if (!next) {
+        next = parent.querySelector(".carousel-item");
     }
-    next.children(':first-child').clone().appendTo($(this));
+    let clone = next.querySelector("div").cloneNode(true);
+    item.appendChild(clone)
 
     for (var i = 0; i < minPerSlide; i++) {
-        next = next.next();
-        if (!next.length) {
-            next = $(this).siblings(':first');
+        next = next.nextElementSibling;
+        if (!next) {
+            next = parent.querySelector(".carousel-item");
         }
-
-        next.children(':first-child').clone().appendTo($(this));
+        clone = next.querySelector("div").cloneNode(true);
+        item.appendChild(clone)
     }
 });
