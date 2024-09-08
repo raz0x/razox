@@ -1,0 +1,36 @@
+---
+layout: default
+
+title: "Jokes"
+subtitle: 
+lead: "No&nbsp;Offence"
+---
+
+<div class="row">
+  <div class="col-md-9">
+    {% for joke in site.jokes %}
+    <article class="mb-3 pb-2 border-bottom border-dark">
+      <img class="d-inline-block" src="/img/SmirC-laugh.svg">
+      <h2 class="joke-title"><a href="{{ joke.url }}" class="text-reset text-decoration-none">{{ joke.title }}</a></h2>
+      {% if joke.subtitle %}<p class="lead">{{ joke.subtitle }}</p>{% endif %}
+      {{ joke.content }}
+    </article>
+    {% endfor %}
+    <ul id="pager" class="nav justify-content-between">
+      <li class="nav-item">
+        {% if paginator.previous_page %}
+        <a class="nav-link" href="/jokes/{% if paginator.page <> 2 %}{{paginator.previous_page}}{% endif %}">&laquo; Previous</a>
+        {% else %}
+        <span class="nav-link disabled">&laquo; Previous</span>
+        {% endif %}
+      </li>
+      <li class="nav-item">
+        {% if paginator.next_page %}
+        <a class="nav-link" href="/jokes/{{paginator.next_page}}">Next &raquo;</a>
+        {% else %}
+        <span class="nav-link disabled">Next &raquo;</span>
+        {% endif %}
+      </li>
+    </ul>
+  </div>
+</div>
