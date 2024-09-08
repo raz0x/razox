@@ -10,7 +10,7 @@ lead: "No&nbsp;Offence"
   <div class="col-md-9">
     {% for joke in site.jokes %}
     <article class="mb-3 pb-2 border-bottom border-dark">
-      <img class="d-inline-block" src="/img/SmirC-laugh.svg">
+      <img class="d-inline-block" src="/img/SMirC-laugh.svg" width="1em" height="1em">
       <h2 class="joke-title"><a href="{{ joke.url }}" class="text-reset text-decoration-none">{{ joke.title }}</a></h2>
       {% if joke.subtitle %}<p class="lead">{{ joke.subtitle }}</p>{% endif %}
       {{ joke.content }}
