@@ -14,3 +14,8 @@ paginate_path: "/jokes/:num/"
 
 plugins:
   - jekyll-redirect-from
+
+collections:
+  jokes:
+    output: true
+    permalink: /:collection/:path/
