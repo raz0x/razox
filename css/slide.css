@@ -18,11 +18,11 @@ Time: 20;
     z-index: 0;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation {{ page.Time | times: n }}s linear infinite 0s;
-    -moz-animation: imageAnimation {{ page.Time | times: n }}s linear infinite 0s;
-    -o-animation: imageAnimation {{ page.Time | times: n }}s linear infinite 0s;
-    -ms-animation: imageAnimation {{ page.Time | times: n }}s linear infinite 0s;
-    animation: imageAnimation {{ page.Time | times: n }}s linear infinite 0s;
+    -webkit-animation: slideAnimation {{ page.Time | times: n }}s linear infinite 0s;
+    -moz-animation: slideAnimation {{ page.Time | times: n }}s linear infinite 0s;
+    -o-animation: slideAnimation {{ page.Time | times: n }}s linear infinite 0s;
+    -ms-animation: slideAnimation {{ page.Time | times: n }}s linear infinite 0s;
+    animation: slideAnimation {{ page.Time | times: n }}s linear infinite 0s;
 }
 
 {% for q in site.data.quotes %}
@@ -35,7 +35,7 @@ Time: 20;
 }{% endfor %}
 
 
-@-webkit-keyframes imageAnimation {
+@-webkit-keyframes slideAnimation {
     0% { opacity: 0;
     animation-timing-function: ease-in; }
     {{ 100 | divided_by: n | divided_by: 2 }}% { opacity: 1;
@@ -44,7 +44,7 @@ Time: 20;
     {{ 100 | divided_by: n }}% { opacity: 0 }
     100% { opacity: 0 }
 }
-@-moz-keyframes imageAnimation {
+@-moz-keyframes slideAnimation {
     0% { opacity: 0;
     animation-timing-function: ease-in; }
     {{ 100 | divided_by: n | divided_by: 2 }}% { opacity: 1;
@@ -53,7 +53,7 @@ Time: 20;
     {{ 100 | divided_by: n }}% { opacity: 0 }
     100% { opacity: 0 }
 }
-@-o-keyframes imageAnimation {
+@-o-keyframes slideAnimation {
     0% { opacity: 0;
     animation-timing-function: ease-in; }
     {{ 100 | divided_by: n | divided_by: 2 }}% { opacity: 1;
@@ -62,7 +62,7 @@ Time: 20;
     {{ 100 | divided_by: n }}% { opacity: 0 }
     100% { opacity: 0 }
 }
-@-ms-keyframes imageAnimation {
+@-ms-keyframes slideAnimation {
     0% { opacity: 0;
     animation-timing-function: ease-in; }
     {{ 100 | divided_by: n | divided_by: 2 }}% { opacity: 1;
@@ -71,7 +71,7 @@ Time: 20;
     {{ 100 | divided_by: n }}% { opacity: 0 }
     100% { opacity: 0 }
 }
-@keyframes imageAnimation {
+@keyframes slideAnimation {
     0% { opacity: 0;
     animation-timing-function: ease-in; }
     {{ 100 | divided_by: n | divided_by: 2 }}% { opacity: 1;
