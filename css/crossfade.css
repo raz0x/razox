@@ -7,10 +7,9 @@ This 450/1280 = 35.15625%
 
 #crossfade {
     display: grid !important;
-    padding: 0;
 }
 
-#crossfade > * {
+#crossfade > img {
     grid-row: 1;
     grid-column: 1;
     width: 100%;
