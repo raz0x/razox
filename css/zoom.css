@@ -1,0 +1,28 @@
+/*!
+ * http://jsfiddle.net/hajmd/
+ * https://www.milessebesta.com/web-design/scaling-div-height-proportional-to-width-trick/
+ Set the padding-bottom to the correct percentage, to find this, take your background image height; which in my case was 450px and divide it by the pixel width, which for me was 1280px.
+This 450/1280 = 35.15625%
+ */
+
+#zoom {
+    -webkit-animation: imageZoomAnimation 60s linear infinite 0s;
+    -moz-animation: imageZoomAnimation 60s linear infinite 0s;
+    animation: imageZoomAnimation 60s linear infinite 0s;
+}
+
+@-webkit-keyframes imageZoomAnimation {
+    0% { transform: scale(1, 1); }
+    50% { transform: scale(1.5, 1.5); }
+    100% { transform: scale(1, 1); }
+}
+@-moz-keyframes imageZoomAnimation {
+    0% { transform: scale(1, 1); }
+    50% { transform: scale(1.5, 1.5); }
+    100% { transform: scale(1, 1); }
+}
+@keyframes imageZoomAnimation {
+    0% { transform: scale(1, 1); }
+    50% { transform: scale(1.5, 1.5); }
+    100% { transform: scale(1, 1); }
+}
