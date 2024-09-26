@@ -1,7 +1,7 @@
 ---
 layout: joke
 
-joke_title: Baked Beans
+title: Baked Beans
 ---
 Once upon a time there lived a man who had a maddening passion for baked beans.  He loved them, but they always had a very embarrassing and somewhat lively reaction to him.
 
