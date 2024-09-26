@@ -1,7 +1,7 @@
 ---
 layout: joke
 
-joke_title: Been Drunk?
+title: Been Drunk?
 ---
 The 5 stages of drunkness theory:
 
