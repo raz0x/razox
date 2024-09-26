@@ -1,5 +1,6 @@
 ---
 layout: colors
+permalink: /jokes/
 
 title: "Jokes"
 subtitle: "from&nbsp;the&nbsp;Vortex"
@@ -8,28 +9,12 @@ lead: "No&nbsp;Offence"
 
 <section class="w-75 p-3 my-5 mx-auto">
     <div class="bg-body-secondary bg-opacity-50 shadow-lg rounded py-3 px-5">
-            {% for joke in site.jokes %}
-            <article class="mb-3 pb-2 border-bottom border-dark">
-            <h2 class="joke-title"><a href="{{ joke.url }}" class="text-reset text-decoration-none">{{ joke.title }}</a></h2>
-            {% if joke.subtitle %}<p class="lead">{{ joke.subtitle }}</p>{% endif %}
-            {{ joke.content }}
-            </article>
-            {% endfor %}
-            <ul id="pager" class="nav justify-content-between">
+        <ul class="nav">
+        {% for joke in site.jokes %}
             <li class="nav-item">
-                {% if paginator.previous_page %}
-                <a class="nav-link" href="/jokes/{% if paginator.page <> 2 %}{{paginator.previous_page}}{% endif %}">&laquo; Previous</a>
-                {% else %}
-                <span class="nav-link disabled">&laquo; Previous</span>
-                {% endif %}
+                <a href="{{ joke.url }}" class="text-reset text-decoration-none">{{ joke.subject }}</a></h2>
             </li>
-            <li class="nav-item">
-                {% if paginator.next_page %}
-                <a class="nav-link" href="/jokes/{{paginator.next_page}}">Next &raquo;</a>
-                {% else %}
-                <span class="nav-link disabled">Next &raquo;</span>
-                {% endif %}
-            </li>
-            </ul>
+        {% endfor %}
+        </ul>
     </div>
 </section>
