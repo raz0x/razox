@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: joke
 
 joke_title: Been Drunk?
 ---
