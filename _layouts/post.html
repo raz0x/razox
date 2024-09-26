@@ -1,20 +1,23 @@
 ---
-layout: default
+layout: colors
 ---
 
-<div class="row">
-  <article class="col-md-9">
-    {{ content }}
-    <p class="post-date small text-end">{{page.date | date_to_string}}</p>
-  </article>
-  <aside class="col-md-3 d-none d-md-block">
-    <section>
-    <p class="lead">Recent Posts</p>
-    {% for post in site.posts %}
-    <p class="post-title">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </p>
-    {% endfor %}
-    </section>
-  </aside>
-</div>
+<section class="w-75 p-3 my-5 mx-auto">
+    <div class="row bg-body-secondary bg-opacity-50 shadow-lg rounded py-3 px-5">
+
+        <article class="col-md-9">
+            {{ content }}
+        </article>
+        <aside class="col-md-3 d-none d-md-block">
+            <section>
+            <p class="lead">Recent Jokes</p>
+            {% for joke in site.jokes %}
+            <p class="post-title">
+            <a href="{{ joke.url }}">{{ joke.title }}</a>
+            </p>
+            {% endfor %}
+            </section>
+        </aside>
+
+    </div>
+</section>
