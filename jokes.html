@@ -9,10 +9,10 @@ lead: "No&nbsp;Offence"
 
 <section class="w-75 p-3 my-5 mx-auto">
     <div class="bg-body-secondary bg-opacity-50 shadow-lg rounded py-3 px-5">
-        <ul class="nav flex-column">
+        <ul class="list-group">
         {% for joke in site.jokes %}
-            <li class="nav-item">
-                <a href="{{ joke.url }}" class="nav-link text-reset text-decoration-none">{{ joke.subject }}</a></h2>
+            <li class="list-group-item">
+                <a href="{{ joke.url }}" class="list-group-item-action">{{ joke.subject }}</a>
             </li>
         {% endfor %}
         </ul>
