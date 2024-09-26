@@ -1,8 +1,7 @@
 ---
 layout: post
 
-title: DICTIONARY OF BAR PHRASES
-subtitle:
+joke_title: DICTIONARY OF BAR PHRASES
 ---
 1. � "YOU GET THIS ONE, NEXT ROUND IS ON ME."
 (We won't be here long enough to get another round.)
