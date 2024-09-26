@@ -41,14 +41,14 @@ lead: "No&nbsp;Of&nbsp;fence"
             <ul id="pager" class="nav justify-content-between">
             <li class="nav-item">
                 {% if prevPost.url %}
-                <a class="nav-link" href="/jokes/{{prevPost.url}}">&laquo; Previous</a>
+                <a class="nav-link" href="{{prevPost.url}}">&laquo; Previous</a>
                 {% else %}
                 <span class="nav-link disabled">&laquo; Previous</span>
                 {% endif %}
             </li>
             <li class="nav-item">
                 {% if nextPost.url %}
-                <a class="nav-link" href="/jokes/{{nextPost.url}}">Next &raquo;</a>
+                <a class="nav-link" href="{{nextPost.url}}">Next &raquo;</a>
                 {% else %}
                 <span class="nav-link disabled">Next &raquo;</span>
                 {% endif %}
