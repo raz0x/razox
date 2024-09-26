@@ -19,3 +19,14 @@ collections:
   jokes:
     output: true
     permalink: /:collection/:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "jokes"
+    values:
+      layout: "joke"
+      title: "Jokes"
+      subtitle: "from&nbsp;the&nbsp;Vortex"
+      lead: "No&nbsp;Of&nbsp;fence"
