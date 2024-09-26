@@ -1,6 +1,6 @@
 ---
-Title: Been Drunk?
-Subtitle:
+title: Been Drunk?
+subtitle:
 ---
 The 5 stages of drunkness theory:
 
