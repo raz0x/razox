@@ -1,4 +1,6 @@
 ---
+layout: post
+
 title: DICTIONARY OF BAR PHRASES
 subtitle:
 ---
