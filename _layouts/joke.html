@@ -10,7 +10,7 @@ page.lead: "No&nbsp;Of&nbsp;fence"
 {% assign nextflag = 1 %}
 
 {% for c in site.jokes %}
-  {% if c.title == page.title %}
+  {% if c.subject == page.subject %}
     {% assign currentItemIndex = forloop.index0 %}
     {% if forloop.index == 1 %}
       {% assign prevflag = 0 %}
