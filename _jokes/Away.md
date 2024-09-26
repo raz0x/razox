@@ -1,6 +1,6 @@
 ---
-Title: Away
-Subtitle:
+title: Away
+subtitle:
 ---
 
 A man left work one Friday afternoon. But, being payday, instead of going home, he stayed out the entire weekend partying with the boys and spending his entire paycheck. 
