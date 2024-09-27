@@ -1,5 +1,6 @@
 ---
 subject: Been Drunk?
+tags: M
 ---
 The 5 stages of drunkness theory:
 
