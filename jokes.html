@@ -8,10 +8,11 @@ lead: "No&nbsp;Offence"
 ---
 
 <section class="col col-md-9 mx-auto p-3 my-5">
-    <ul class="nav flex-column bg-body-secondary bg-opacity-75 shadow-lg rounded py-3 px-5">
+    <ul class="list-group bg-body-secondary bg-opacity-75 shadow-lg rounded py-3 px-5">
     {% for joke in site.jokes %}
-        <li class="nav-item">
-            <a href="{{ joke.url }}" class="nav-link">{{ joke.subject }}</a>
+        <li class="list-group-item bg-body-tertiary bg-opacity-25 d-flex justify-content-between align-items-center">
+            <a href="{{ joke.url }}" class="stretched-link">{{ joke.subject }}</a>
+            {% if page.tags %} {% for tag in page.tags %} <span class="badge rounded-pill text-bg-primary">{{ tag }}</span> {% endfor %} {% endif %}
         </li>
     {% endfor %}
     </ul>
