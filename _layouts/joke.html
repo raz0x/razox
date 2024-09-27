@@ -36,7 +36,7 @@ page.lead: "No&nbsp;Of&nbsp;fence"
     <div class="bg-body-secondary bg-opacity-50 shadow-lg rounded py-3 px-5">
             <article class="mb-3 pb-2 border-bottom border-dark">
             <h2 class="joke-title">{{ page.subject }}</h2>
-            {% if page.tag %}
+            {% if page.tags %}
             {% for tag in page.tags %}
             <span class="badge rounded-pill">{{ tag }}</span>
             {% endfor %}
