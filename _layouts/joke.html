@@ -35,13 +35,8 @@ page.lead: "No&nbsp;Of&nbsp;fence"
 <section class="col col-md-9 mx-auto p-3 my-5">
     <div class="bg-body-secondary bg-opacity-50 shadow-lg rounded py-3 px-5">
             <article class="mb-3 pb-2 border-bottom border-dark">
+            {% if page.tags %}<div class="float-end">{% for tag in page.tags %}<span class="badge rounded-pill text-bg-{% if tag == " MA" or tag=="M" %}danger{% elsif tag=="PG" %}warning{% else %}success{% endif %}">{{ tag }}</span>{% endfor %}</div>{% endif %}
             <h2 class="joke-title">{{ page.subject }}</h2>
-            {% if page.tags %}
-            {% for tag in page.tags %}
-            <span class="badge rounded-pill">{{ tag }}</span>
-            {% endfor %}
-            {% endif %}
-
             {{ content }}
             </article>
             <ul id="pager" class="nav justify-content-between">
