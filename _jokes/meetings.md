@@ -8,35 +8,32 @@ HOW TO STAY AWAKE AT MEETINGS
 
 2. Write one of the following words/phrases in each block:
 
-    * synergy
-    * strategic fit
-    * core competencies
-    * best practice
-    * bottom line
-    * revisit
-    * take that off-line
-    * 24/7
-    * out of the loop
-    * benchmark
-    * value-added
-    * pro-active
-    * win-win
-    * think outside the box
-    * fast track
-    * result-driven
-    * empower (or empowerment)
-    * knowledge base
-    * at the end of the day
-    * touch base
-    * mind-set
-    * client focus(ed)
-    * paradigm
-    * game plan
-    * leverage
-
-and last but not least
-
-    * MOVING FORWARD......
+    *** synergy
+    *** strategic fit
+    *** core competencies
+    *** best practice
+    *** bottom line
+    *** revisit
+    *** take that off-line
+    *** 24/7
+    *** out of the loop
+    *** benchmark
+    *** value-added
+    *** pro-active
+    *** win-win
+    *** think outside the box
+    *** fast track
+    *** result-driven
+    *** empower (or empowerment)
+    *** knowledge base
+    *** at the end of the day
+    *** touch base
+    *** mind-set
+    *** client focus(ed)
+    *** paradigm
+    *** game plan
+    *** leverage, and
+    *** MOVING FORWARD
 
 3. Check off the appropriate block when you hear one of those words/phrases.
 
